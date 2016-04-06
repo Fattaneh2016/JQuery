@@ -75,11 +75,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\apple.jpg" />
+    <Content Include="images\banana.jpg" />
+    <Content Include="images\orange.jpg" />
+    <Content Include="ReModal.html" />
+    <Content Include="PlugInInstance.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
